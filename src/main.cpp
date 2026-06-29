@@ -18,7 +18,7 @@ int main() {
         }
 
         if (choice == EXIT_CHOICE) {
-            cout << "Goodbye!" << endl;
+            cout << "Goodbye Have A Nice Day!" << endl;
             break;
         }
 
