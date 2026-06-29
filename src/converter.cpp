@@ -9,7 +9,7 @@ double inchesToCentimeters(double inches) {
 }
 
 double centimetersToInches(double centimeters) {
-    // TODO: return centimeters converted to inches.
+    // TODO: return centimeters converted to inches.  Romove TODOS
     return centimeters / CENTIMETERS_PER_INCH;
 }
 
@@ -25,12 +25,12 @@ double kilogramsToPounds(double kilograms) {
 
 double fahrenheitToCelsius(double fahrenheit) {
     // TODO: return Fahrenheit converted to Celsius.
-    return ((fahrenheit - 32) * 5 / 9);
+    return ((fahrenheit - 32) * 5 / 9); // Use 9.0 and 5.0 instead, could cause problems with it treating it as intiger division and not double, though yours works great.
 }
 
 double celsiusToFahrenheit(double celsius) {
     // TODO: return Celsius converted to Fahrenheit.
-    return ((celsius * 9 / 5) + 32);
+    return ((celsius * 9 / 5) + 32); // Use 9.0 and 5.0 instead, could cause problems with it treating it as intiger division and not double.
 }
 
 bool isValidMenuChoice(int choice) {
